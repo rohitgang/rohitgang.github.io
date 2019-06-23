@@ -2,7 +2,7 @@
 title: "About"
 permalink: /about/
 header:
-    images: "" #path to image
+    images: "/images/ny.jpg"
 ---
 
 I'm a undergrad student.
