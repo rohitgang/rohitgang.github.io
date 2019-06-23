@@ -9,7 +9,7 @@ header:
 
 Here's the list of the Project:
 
-1. [Fraud Detection Using K-Means]{https://rohitgang.github.io/frauddetect/}
+1. [Fraud Detection Using K-Means](https://rohitgang.github.io/frauddetect/)
 2. FIFA Dataset Analysis
 3. Housing Price Predictor
 4. Global Warming
