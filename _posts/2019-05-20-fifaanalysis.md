@@ -1,5 +1,5 @@
 ---
-title: "Fraud detection using K-Means"
+title: "FIFA Data Analysis"
 date: 2019-05-03
 tags: [maching learning, data science]
 header: 
