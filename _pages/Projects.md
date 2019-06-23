@@ -7,3 +7,9 @@ header:
     image: "C:/Users/Rohit/Documents/GitHub/rohitgang.github.io/images/fraud.png" #/images/fraud.png"
 ---
 
+Here's the list of the Project:
+
+1. [link]Fraud Detection Using K-Means{https://rohitgang.github.io/frauddetect/}
+2. FIFA Dataset Analysis
+3. Housing Price Predictor
+4. Global Warming

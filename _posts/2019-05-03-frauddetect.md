@@ -3,7 +3,7 @@ title: "Fraud detection using K-Means"
 date: 2019-05-03
 tags: [maching learning, data science]
 header: 
-    image: "/images/fraud.png"
+    image: "/images/cluster.png"
 excerpt: "KMeans clustering"
 ---
 
