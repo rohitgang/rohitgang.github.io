@@ -1,8 +1,7 @@
 ---
 title: "About"
 permalink: /about/
-header:
-    image: "/images/avatar.jpg"
+author_profile: false
 ---
 
 I'm a undergrad student.
