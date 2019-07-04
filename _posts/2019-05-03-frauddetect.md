@@ -38,6 +38,7 @@ Basic text
 2. second
 
 '''python
+
     import numpy as np
 
     def sucks():
@@ -45,8 +46,10 @@ Basic text
 '''
 
 '''r
+
 library(tidyverse)
 df <- read_csv('somefile.csv')
+
 '''
 
 'x+y'
