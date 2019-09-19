@@ -1,5 +1,5 @@
 ---
-title: "Fraud detection using K-Means"
+title: "Fraud detection using Random Forest"
 date: 2019-05-03
 tags: [maching learning, data science]
 header: 
@@ -7,16 +7,21 @@ header:
 excerpt: "KMeans clustering"
 ---
 
-This summer I was determined to learn the machine learning algorithms. When I finished learning
-K-Means Clustering algorithm naturally I wanted to do a credit card fraud analysis. The data for this 
-project is used from Kaggle (link?).
+This summer I was determined to learn machine learning algorithms. As one of the first projects, I took up Credit Card Fraud Detection.
+The data used for this is retrieved from Kaggle.
 
-When I looked at the data, I did not straightaway realise that the features, V1-V28 were anonymised features.
-I did not read the documentation for the data and straightaway ignored these features. I looked at **Time**, 
-**Amount** and **Class** for the answers. I checked the data for any NaN values and as such replaced them with
-the average of that feature. I created a KMeans model with 2 clusters. On a 3D Axes, I plotted Time on X-axis, Amount on Y-Axis and Class on Z-Axis. The clusters that were formed using the whole dataset didn't turn out as expected.
-<image src= "/images/fraud.png", alt="kmeans clusters">
-The cluster seemed to get divided over the time between 75,000 and 100,000 units, rather than class. 
+When I looked at the data, I realised that the data was heavily PCA'd. I did get rid of nan values in the dataset. I replaced the nan's with the average of that column.
+I used scikit learn's random forest classification model to predict the transaction as either a fraud and not fraud. But before doing that, I checked the composition of my data.
+I realised that 98% of the transactions were classsified as non-fraud. Running a classification model on such a dataset would result in all or most of the transactions being classified as non-fraud due to the imbalance.
+To oversome this, I undersampled the majority class (non-fraud) using the sample method of pandas.DataFrame.
+
+After undersampling, I split the dataset into train and test. I initialised a random forest classifier  as such : 
+'''python
+    clf= RandomForestClassifier(n_estimators= 200, max_depth= 8)
+'''
+After fitting the training data and predicting on the test data, I got roc_auc_score of 0.9195
+I created a method to visualise my test data in a confusion matrix. Out of 244 fraud transactions, I predicted 205 of them correctly.
+
 # H1
 
 ## H2
