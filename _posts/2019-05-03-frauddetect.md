@@ -27,4 +27,4 @@ I created a method to visualise my test data in a confusion matrix. (insert conf
 
 After I was done predicting, I thought of doing transaction analysis using K-Means clustering. Using the sklearns K-Menas model, I got 4 clusters, divided according to the time. Most of the fraud transactions, occured during (insert time). (Add clusering image)
 
-The code for this project can be found (here) [https://github.com/rohitgang/Fraud-Detection]
+The code for this project can be found [here] (https://github.com/rohitgang/Fraud-Detection)
