@@ -17,6 +17,7 @@ To oversome this, I undersampled the majority class (non-fraud) using the sample
 
 After undersampling, I split the dataset into train and test. I initialised a random forest classifier  as such : 
 '''python
+
     clf= RandomForestClassifier(n_estimators= 200, max_depth= 8)
 '''
 After fitting the training data and predicting on the test data, I got roc_auc_score of 0.9195
