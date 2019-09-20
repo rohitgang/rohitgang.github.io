@@ -21,9 +21,18 @@ author_profile: false
     * Research factors affecting the formation of BMG and perform feature engineering to increase efficiency of our ML model.
 
 ## RESEARCH/PROJECTS
-### Trade Direction Classification (research with Dr. Egginton)     09/2019 - Present
+#### Trade Direction Classification (research with Dr. Egginton)     09/2019 - Present
     * Classifying Trades as a buy or a sell.
     * Extracting data from different stock markets and parse them.
     * Filtering out features and applying ML models to the dataset. Currently using Random Forest Classifier at an accuracy of 75% - 86% based on different stock markets. 
 
-### Twitter Sentiment Analysis (individual project)                 09/2019 - Present                   
+#### Twitter Sentiment Analysis (individual project)                 09/2019 - Present                   
+    • Collecting tweets from Twitter using the twitter api and raspberry pi for 1-3 days.
+    • Performing sentiment analysis for certain keywords.
+    • Graphing the positive and negative sentiment in realtime.
+
+####  Ada County Housing Analysis (project with a colleague) 08/2019 – Present
+    • Scraping the Ada County website for housing data.
+    • Performing data cleaning and manipulation to parse the data into desired format.
+    • Applying dimensionality reduction techniques and performing feature selection.
+    • Trying out different ML models and tune hyperparamters for efficient performance
