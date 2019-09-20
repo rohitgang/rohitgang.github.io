@@ -26,7 +26,7 @@ author_profile: false
     • Research factors affecting the formation of BMG and perform feature engineering to increase efficiency of our ML model.
 
 
-## RESEARCH/PROJECTS
+## Research/Projects
 #### Trade Direction Classification (research with Dr. Egginton)
 #### 09/2019 - Present
     • Classifying Trades as a buy or a sell.
