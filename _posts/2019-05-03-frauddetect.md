@@ -22,8 +22,9 @@ clf= RandomForestClassifier(n_estimators= 200, max_depth= 8)
 
 After fitting the training data and predicting on the test data, I got roc_auc_score of 0.9195
 I created a method to visualise my test data in a confusion matrix. ![Confusion Matrix](/images/matrix.JPG)
+
 Out of 244 fraud transactions, I predicted 205 of them correctly.
 
-After I was done predicting, I thought of doing transaction analysis using K-Means clustering. Using the sklearns K-Menas model, I got 4 clusters, divided according to the time. Most of the fraud transactions, occured during (insert time). (Add clusering image)
+After I was done predicting, I thought of doing transaction analysis using K-Means clustering. Using the sklearns K-Menas model, I got 4 clusters, divided according to the time. Most of the fraud transactions, occured for under a certain amount. I am currently learning more about K-means clustering and trying to understand the distribution of fraud and non-fraud better. ![Clusters](/images/cluster.JPG)
 
 The code for this project can be found [here](https://github.com/rohitgang/Fraud-Detection)
