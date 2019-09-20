@@ -7,7 +7,8 @@ author_profile: false
     Python, R, Tableau, C, Java, HTML, CSS, SQL,
     Apache Hadoop, Git, Agile Development, Hypothesis Testing,
     Data Wrangling, Data Visualization, Cluster Analysis,
-    Regression Analysis, Ensemble Methods, Communication, TimeManagement.
+    Regression Analysis, Ensemble Methods, Communication, 
+    TimeManagement.
 
 
 ## Experience
@@ -15,10 +16,10 @@ author_profile: false
 #### Data Analytics Intern
 #### 05/2019 - Present
     • Creating custom applications for automation and
-    reporting purposes. 
+     reporting purposes. 
     • Follow agile life cycle to develop applications.
     • Building dashboards and visualizations to help make better budget
-    decisions.
+     decisions.
     • Analyze traffic data to find hotspots and anomalies
 
 ### Informatics Skunkworks, Boise State University
@@ -36,8 +37,8 @@ author_profile: false
     • Classifying Trades as a buy or a sell.
     • Extracting data from different stock markets and parse them.
     • Filtering out features and applying ML models to the dataset.
-    Currently using Random Forest Classifier at an accuracy of 75% - 86% based
-    on different stock markets. 
+     Currently using Random Forest Classifier at an accuracy of 
+     75% - 86% based on different stock markets. 
 
 #### Twitter Sentiment Analysis (individual project)#### 09/2019 - Present                   
     • Collecting tweets from Twitter using the twitter api and 
@@ -71,7 +72,7 @@ author_profile: false
     any anomalies.
     • Build a K-Means Clustering model to segregate transactions 
     into groups.
-    • Used Random Forest Classifier to achieve a roc_auc_score of 0.918.
+    • Used Random Forest Classifier to achieve a roc_auc_score of 0.918
 
 
 ## Extra Curriculars
