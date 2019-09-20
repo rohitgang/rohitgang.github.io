@@ -4,7 +4,10 @@ permalink: /resume/
 author_profile: false
 ---
 ## Skills
-    Python, R, Tableau, C, Java, HTML, CSS, SQL, Apache Hadoop, Git, Agile Development, Hypothesis Testing, Data Wrangling, Data Visualization, Cluster Analysis, Regression Analysis, Ensemble Methods, Communication, TimeManagement.
+    Python, R, Tableau, C, Java, HTML, CSS, SQL,
+    Apache Hadoop, Git, Agile Development, Hypothesis Testing,
+    Data Wrangling, Data Visualization, Cluster Analysis,
+    Regression Analysis, Ensemble Methods, Communication, TimeManagement.
 
 
 ## Experience
