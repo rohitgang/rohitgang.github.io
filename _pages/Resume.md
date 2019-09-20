@@ -40,7 +40,8 @@ author_profile: false
       Currently using Random Forest Classifier at an accuracy of 
       75% - 86% based on different stock markets. 
 
-#### Twitter Sentiment Analysis (individual project)#### 09/2019 - Present                   
+#### Twitter Sentiment Analysis (individual project)
+#### 09/2019 - Present                   
     • Collecting tweets from Twitter using the twitter api and 
       raspberry pi for 1-3 days.
     • Performing sentiment analysis for certain keywords.
