@@ -25,6 +25,14 @@ I created a method to visualise my test data in a confusion matrix. ![Confusion 
 
 Out of 244 fraud transactions, I predicted 205 of them correctly.
 
-After I was done predicting, I thought of doing transaction analysis using K-Means clustering. Using the sklearns K-Menas model, I got 4 clusters, divided according to the time. Most of the fraud transactions, occured for under a certain amount. I am currently learning more about K-means clustering and trying to understand the distribution of fraud and non-fraud better. ![Clusters](/images/cluster.JPG)
+After I was done predicting, I thought of doing transaction analysis using K-Means clustering. I initialised my model as such :
+
+```python
+model_= KMeans(init= 'k-means++', n_clusters= 4, n_init= 10)
+```
+
+Most of the fraud transactions, occured for under a certain amount as seen in the image.![Clusters](/images/cluster.JPG)
+
+I am currently learning more about K-means clustering and trying to understand the distribution of fraud and non-fraud better. 
 
 The code for this project can be found [here](https://github.com/rohitgang/Fraud-Detection)
