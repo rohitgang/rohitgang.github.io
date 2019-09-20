@@ -10,7 +10,7 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-theme                  : "minimal-mistakes-jekyll"
+#theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "Rohit Gangurde"
-  avatar           : "C:/Users/Rohit/Documents/GitHub/rohitgang.github.io/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  #avatar           : "C:/Users/Rohit/Documents/GitHub/rohitgang.github.io/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "An undergraduate Computer Science student with interest in Data Analytics and Machine Learning."
   location         : "Boise, ID"
   #email            : "rohit_gang@outlook.com"
