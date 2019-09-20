@@ -7,6 +7,7 @@ excerpt: "Housing Price Analysis"
 The data used for the housing price analysis 
 came from Kaggle. You can find it [here](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data). When I first looked through the data,
 I got nervous due to the size of the dataset. There are a total of 80 features excluding the ID. This was the first time I dealt with a dataset of this size. I plotted a heatmap of the correlation of my features using the `dataframe.corr()` and `sns.heatmap()` methods. The heatmap came out to be like this: 
+
 !['Heatmap'](/images/heatmap.JPG) 
 
 I am not big into the Housing sector so my domain knowledge was little. I do have common sense and so I know that size of the house *positively* affects the price. When I glanced the dataset,
@@ -23,7 +24,6 @@ I defined a function **nanCheck** which would check for the nan values in the su
 to encode strings to integers to ensure compability with Linear Regression
 model. Using 
 ```python 
-
 train_test_split
 ```
 I prepared my training and my testing data using train_test_split from sklearn. 
@@ -36,7 +36,6 @@ This was my baseline. Once I reached this point, I decided to get back into theo
 
 Before I was using Label Encoder to turn my categorical features into numerical. After studying, I used one hot encoding using `pandas.get_dummies`. I did this because turning categorical data to numerical can be interpreted as some sort of ranking system by our model. I wrote a quick for loop for this :
 ```python
-
 for val in object_Val:
     df= pd.get_dummies(df, columns=[val])
 ```
