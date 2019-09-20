@@ -1,6 +1,6 @@
 ---
 title: "Housing Price Analysis"
-date: 2019-07-01
+date: 2019-08-20
 tags: [maching learning, Random Forest, Linear Regression]
 excerpt: "Housing Price Analysis"
 ---
