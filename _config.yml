@@ -110,7 +110,7 @@ author:
   avatar           : "C:/Users/Rohit/Documents/GitHub/rohitgang.github.io/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "An undergraduate Computer Science student with interest in Data Analytics and Machine Learning."
   location         : "Boise, ID"
-  email            : "rohit_gang@outlook.com"
+  #email            : "rohit_gang@outlook.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
