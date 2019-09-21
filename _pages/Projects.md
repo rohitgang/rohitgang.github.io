@@ -12,3 +12,6 @@ Here's the list of the Project:
 4. Trade Direction Classification
 5. Twitter Sentiment Analysis
 6. ConLL Shared Task
+
+
+(Working on writing about my projects, so hang tight!)
