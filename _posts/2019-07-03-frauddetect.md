@@ -8,17 +8,17 @@ excerpt: "Fraud Detection"
 This summer I was determined to learn machine learning algorithms. As one of the first projects, I took up Credit Card Fraud Detection.
 The data used for this is retrieved from Kaggle.
 
-When I looked at the data, I realised that the data was heavily PCA'd. I did get rid of nan values in the dataset.
+When I looked at the data, I realised that the data was heavily PCA'd. As you can see, there is no correlation between the features
 
 ![PCA'd dataset](/images/pca.JPG)
 
-As you can see, there is no correlation between the features. I replaced the nan's with the average of that column.
+I did get rid of nan values in the dataset.I replaced the nan's with the average of that column.
 
 I used scikit learn's random forest classification model to predict the transaction as either a fraud and not fraud. But before doing that, I checked the composition of my data.
 
 I realised that 98% of the transactions were classsified as non-fraud. Running a classification model on such a dataset would result in all or most of the transactions being classified as non-fraud due to the imbalance.
 
-To oversome this, I undersampled the majority class (non-fraud) using the `pandas.DataFrame.sample`
+To overcome this, I undersampled the majority class (non-fraud) using the `pandas.DataFrame.sample`
 
 ![Resampled Dataset](/images/resample.JPG)
 
