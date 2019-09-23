@@ -28,7 +28,7 @@ After undersampling, I split the dataset into train and test. I initialised a ra
 clf= RandomForestClassifier(n_estimators= 200, max_depth= 8)
 ```
 
-After fitting the training data and predicting on the test data, I got roc_auc_score of 0.9195
+After fitting the training data and predicting on the test data, I got roc_auc_score of 0.9195.
 I created a method to visualise my test data in a confusion matrix.
 
  ![Confusion Matrix](/images/matrix.JPG)
