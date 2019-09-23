@@ -16,6 +16,7 @@ there were a few fields that stood out to me,
 * SaleCondition
 * MasVnrArea 
 * OverallQual
+
 I knew that these fields were gonna affect the Sale Price directly.
 My very first model was a Linear Regression Model with all of the
 features except for the ID and the target variable, *SalePrice*.
