@@ -3,6 +3,7 @@ title: "Ada County Housing Analysis"
 date: 2019-09-03
 tags: [maching learning, random forest]
 excerpt: "Housing Analysis"
+permalink: /acahouse/
 ---
 
 This summer my colleague, Nikita Kramar, had an amazing idea for a project. He came
