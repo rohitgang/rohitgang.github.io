@@ -6,7 +6,7 @@ excerpt: "Housing Analysis"
 ---
 
 This summer my colleague, Nikita Kramar, had an amazing idea for a project. He came
- across the Ada county housing website where all the housing data such as the number
+across the Ada county housing website where all the housing data such as the number
 of bedrooms, the porch sq. ft., so on and so forth are made public. Looking at this, he
 thought of accessing this data and putting it to use. So over the summer, he learned python and 
 used selenium to scrape that website and collected all the data into a dataframe. While doing this,
