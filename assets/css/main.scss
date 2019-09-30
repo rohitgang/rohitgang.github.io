@@ -3,6 +3,9 @@
 ---
 
 @charset "utf-8";
+$link-color: DarkTurquoise;
+$serif: serif;
+$sans-serif: -apple-system, "Helvetica Neue";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
