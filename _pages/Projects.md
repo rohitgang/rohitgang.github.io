@@ -8,7 +8,7 @@ Here's the list of the Project:
 
 1. [Credit Card Fraud Analysis](https://rohitgang.github.io/frauddetect/)
 2. [Housing Price Predictor](https://rohitgang.github.io/houseprice/)
-3. Ada County Housing Analysis
+3. [Ada County Housing Analysis](https://rohitgang.github.io/acahouse/)
 4. Trade Direction Classification
 5. Twitter Sentiment Analysis
 6. ConLL Shared Task
