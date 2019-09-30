@@ -3,9 +3,9 @@
 ---
 
 @charset "utf-8";
-$link-color: rgb(199, 83, 30);
-$serif: serif;
-$sans-serif: "Trebuchet MS", Helvetica, sans-serif;
+$link-color: rgb(10, 84, 102);
+$serif: "Lucida Grande";
+$sans-serif: "Helvetica Neue","Myriad", "Avenir";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
