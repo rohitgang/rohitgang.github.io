@@ -2,6 +2,7 @@
 title: "Housing Price Analysis"
 date: 2019-08-20
 tags: [maching learning, Random Forest, Linear Regression]
+permalink: /houseprice/
 excerpt: "Housing Price Analysis"
 ---
 The data used for the housing price analysis 
