@@ -22,7 +22,8 @@ further into web development. I focused on html, javascript and css for a week.
 
 The product of dedicating my time to web development was that I was able to create web pages with *forms, divs, articles.* 
 By this time, I decided to analyse user input too. I used forms to take in user input like this:
-```<form method="POST">
+```javascript
+<form method="POST">
         <input name="text" size="30" style="color:black">
         <button type="submit"
                 value="Submit"
@@ -35,7 +36,8 @@ By this time, I decided to analyse user input too. I used forms to take in user 
                 formaction="/subject.html">
             <b>Graph</b>
         </button>
-</form>```
+</form>
+```
 
 
 
