@@ -15,27 +15,22 @@ author_profile: false
 ## Micron Technology, Boise
 ### Engineering Data Analytics Intern
 ### 05/2020 - 12/2020
-1. Creating a statistics tool to provide engineers with meaningful insights into 
+• Creating a statistics tool to provide engineers with meaningful insights into 
    the wafer data.
-
-2. Working with various volumes of data from multiple sources (frontend wafer test data
+• Working with various volumes of data from multiple sources (frontend wafer test data
    and backend packaged test data) and performing data analysis to identify solutions 
    for engineering problems.
-    
-3. Developing a tool to enable test/product development engineers to group die level 
+• Developing a tool to enable test/product development engineers to group die level 
    data and figure out how the bins are yielding in the back-end test flows.
     
 ## Kloudspot, Boise
 ### Data Science Intern
 ### 01/2020 - 05/2020
-> Set up pipelines to process user data to readable format.
-
-> Performed cleaning and data manipulation to get rid of the outliers.
-
-> Built and tested models (K-Means, DB-Scan, A = CR [Row space clustering], Random Forest) to find correlations
+* Set up pipelines to process user data to readable format.
+* Performed cleaning and data manipulation to get rid of the outliers.
+* Built and tested models (K-Means, DB-Scan, A = CR [Row space clustering], Random Forest) to find correlations
     between participants in an event.
-
-> Performed dimensionality reduction (PCA reduction) to reduce the size of data while keeping the essential features.
+* Performed dimensionality reduction (PCA reduction) to reduce the size of data while keeping the essential features.
     
 ## Idaho Transportation Department, Boise     
 ### Data Analytics Intern
@@ -63,7 +58,7 @@ better budget decisions.
 ## Research/Projects
 #### Trade Direction Classification (research with Dr. Egginton)
 #### 09/2019 - Present
-    • Classifying Trades as a buy or a sell.
+     Classifying Trades as a buy or a sell.
     • Extracting data from different stock markets and parse them.
     • Filtering out features and applying ML models to the dataset.
       Currently using Random Forest Classifier at an accuracy of 
