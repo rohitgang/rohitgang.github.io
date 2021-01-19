@@ -32,7 +32,7 @@
   }
 
   .page__inner-wrap {
-    float: center;
+    float: left;
     margin-top: 1em;
     margin-left: 0;
     margin-right: 0;
@@ -40,13 +40,13 @@
     clear: both;
 
     .page__content {
-      float: center;
+      float: left;
       width: 100%;
     
     .page__meta,
     .page__share {
       position: relative;
-      float: center;
+      float: left;
       margin-left: 0;
       margin-right: 0;
       width: 100%;
