@@ -42,8 +42,7 @@ author_profile: false
 ## Informatics Skunkworks, Boise State University
 ### Machine Learning Undergraduate Researcher
 ### 01/2019 - 05/2019
-     • Analyze the properties of different materials to find a suitable combination for Bulk Metallic Glass.
-
+    • Analyze the properties of different materials to find a suitable combination for Bulk Metallic Glass.
     • Research factors affecting the formation of BMG and perform feature engineering to increase efficiency
     of our ML model.
 
