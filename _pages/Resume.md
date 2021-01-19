@@ -15,21 +15,22 @@ author_profile: false
 ### Engineering Data Analytics Intern
 ### 05/2020 - 12/2020
     • Creating a statistics tool to provide engineers with meaningful insights into the 
-    wafer data.
+      wafer data.
     • Working with various volumes of data from multiple sources (frontend wafer test data and 
-    backend packaged test data) 
-    and performing data analysis to identify solutions for engineering problems.
+      backend packaged test data) and performing data analysis to identify solutions for 
+      engineering problems.
     • Developing a tool to enable test/product development engineers to group die level data and 
-    figure out how the bins are yielding in the back-end test flows.
+      figure out how the bins are yielding in the back-end test flows.
     
 ## Kloudspot, Boise
 ### Data Science Intern
 ### 01/2020 - 05/2020
     • Set up pipelines to process user data to readable format.
     • Performed cleaning and data manipulation to get rid of the outliers.
-    • Built and tested models (K-Means, DB-Scan, A = CR [Row space clustering], Random Forest) to find correlations
-        between participants in an event.
-    • Performed dimensionality reduction (PCA reduction) to reduce the size of data while keeping the essential features.
+    • Built and tested models (K-Means, DB-Scan, A = CR [Row space clustering], Random Forest)
+      to find correlations between participants in an event.
+    • Performed dimensionality reduction (PCA reduction) to reduce the size of data while 
+      keeping the essential features.
     
 ## Idaho Transportation Department, Boise     
 ### Data Analytics Intern
@@ -42,9 +43,10 @@ author_profile: false
 ## Informatics Skunkworks, Boise State University
 ### Machine Learning Undergraduate Researcher
 ### 01/2019 - 05/2019
-    • Analyze the properties of different materials to find a suitable combination for Bulk Metallic Glass.
-    • Research factors affecting the formation of BMG and perform feature engineering to increase efficiency
-    of our ML model.
+    • Analyze the properties of different materials to find a suitable combination for Bulk 
+      Metallic Glass.
+    • Research factors affecting the formation of BMG and perform feature engineering to 
+      increase efficiency of our ML model.
 
 
 ## Research/Projects
@@ -52,8 +54,9 @@ author_profile: false
 #### 09/2019 - 02/2020
     • Classifying Trades as a buy or a sell.
     • Extracting data from different stock markets and parse them.
-    • Filtering out features and applying ML models to the dataset. At present used Random Forest Classifier
-    at an accuracy of 75% - 86% based on different stock markets. 
+    • Filtering out features and applying ML models to the dataset. At present, used 
+      Random Forest Classifier at an accuracy of 75% - 86% based on different 
+      stock markets. 
 
 #### Twitter Sentiment Analysis (individual project)
 #### 09/2019 - 01/2020                   
@@ -70,16 +73,17 @@ author_profile: false
 
 ####  ConLL Shared Task 2019 (research with Dr. Kennington) 
 #### 05/2019 - 03/2020
-    • The goal of the task is to advance data-driven parsing into graph-structured representations
-    of sentence meaning.
+    • The goal of the task is to advance data-driven parsing into graph-structured 
+      representations of sentence meaning.
     • Creating a pipeline to parse the model’s output to a compatible form for evaluation.
-    • Model in progress and currently has a f1 score of 0.72. Tuning hyperparameters to get better results.
+    • Model in progress and currently has a f1 score of 0.72. Tuning hyperparameters to get 
+      better results.
 
 #### Credit Card Fraud Analysis (individual project)
 #### 06/2019 – 08/2019
     • Analyzing credit card transaction data obtained from Kaggle for any anomalies.
     • Build a K-Means Clustering model to segregate transactions into groups.
-    • Used Random Forest Classifier to achieve a    roc_auc_score of 0.918
+    • Used Random Forest Classifier to achieve a roc_auc_score of 0.918
 
 
 ## Extra Curriculars
@@ -90,6 +94,7 @@ author_profile: false
 
 ## Education
 ####  BSc. Computer Science, Boise State University, 2021 Boise,ID
-    • Relevant Coursework : Data Structures, Algorithms, Calculus 3, Probability and Statistics, Database Systems
+    • Relevant Coursework : Data Structures, Algorithms, Calculus 3, Probability and Statistics,
+                            Database Systems
     • GEM Scholarship (Non-Resident Scholarship for High Achieving Students)
     • Dean’s High Honors List: 4 semesters
