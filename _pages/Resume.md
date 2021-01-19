@@ -16,8 +16,10 @@ author_profile: false
 ### Engineering Data Analytics Intern
 ### 05/2020 - 12/2020
     * Creating a statistics tool to provide engineers with meaningful insights into the wafer data.
-    * Working with various volumes of data from multiple sources (frontend wafer test data and backend packaged test data) and performing data analysis to identify solutions for engineering problems.
-    * Developing a tool to enable test/product development engineers to group die level data and figure out how the bins are yielding in the back-end test flows.
+    * Working with various volumes of data from multiple sources (frontend wafer test data and backend packaged test data) 
+    and performing data analysis to identify solutions for engineering problems.
+    * Developing a tool to enable test/product development engineers to group die level data and figure out how the bins are
+    yielding in the back-end test flows.
     
 ## Kloudspot, Boise
 ### Data Science Intern
@@ -54,7 +56,7 @@ better budget decisions.
 ## Research/Projects
 #### Trade Direction Classification (research with Dr. Egginton)
 #### 09/2019 - Present
-     Classifying Trades as a buy or a sell.
+    • Classifying Trades as a buy or a sell.
     • Extracting data from different stock markets and parse them.
     • Filtering out features and applying ML models to the dataset.
       Currently using Random Forest Classifier at an accuracy of 
