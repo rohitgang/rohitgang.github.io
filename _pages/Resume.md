@@ -11,8 +11,8 @@ author_profile: false
     TimeManagement.
 
 
-## Experience
-### Micron Technology, Boise
+# Experience
+## Micron Technology, Boise
 ### Engineering Data Analytics Intern
 ### 05/2020 - 12/2020
 > Creating a statistics tool to provide engineers with meaningful insights into the wafer data.
@@ -23,7 +23,7 @@ author_profile: false
 > Developing a tool to enable test/product development engineers to group die level data and figure out how the bins
     are yielding in the back-end test flows.
     
-### Kloudspot, Boise
+## Kloudspot, Boise
 ### Data Science Intern
 ### 01/2020 - 05/2020
 > Set up pipelines to process user data to readable format.
@@ -35,9 +35,9 @@ author_profile: false
 
 > Performed dimensionality reduction (PCA reduction) to reduce the size of data while keeping the essential features.
     
-### Idaho Transportation Department, Boise     
-#### Data Analytics Intern
-#### 05/2019 - 12/2019
+## Idaho Transportation Department, Boise     
+### Data Analytics Intern
+### 05/2019 - 12/2019
 > Creating custom applications for automation and
 reporting purposes. 
 
@@ -48,9 +48,9 @@ better budget decisions.
  
 > Analyze traffic data to find hotspots and anomalies
 
-### Informatics Skunkworks, Boise State University
-#### Machine Learning Undergraduate Researcher
-#### 01/2019 - 05/2019
+## Informatics Skunkworks, Boise State University
+### Machine Learning Undergraduate Researcher
+### 01/2019 - 05/2019
 > Analyze the properties of different materials to find
       a suitable combination for Bulk Metallic Glass.
 
