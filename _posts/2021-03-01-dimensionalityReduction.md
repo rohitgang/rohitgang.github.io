@@ -11,10 +11,15 @@ Autoencoders are neural networks which learn the mapping of the input to the inp
 The key element of an autoencoder architecture is its activation function. The choice of activation function depends on the data and the purpose of the autoencoder. Each layer can have a different activation function, choice of which depends on the purpose of the layer. The activation functions influence the encoded representation of the data as the neural net decides how the data is combined. If a linear activation function is used for each layer, then the encoder layer of the autoencoder will directly correspond to principal components obtained from Principal Component Analysis.
 
 To simplify, the mechanism for the autoencoders is made up of two parts, encoder and decoder.
-    \[ \phi :  \chi \longrightarrow \mathfrak{F}\]
-            \[ \psi : \mathfrak{F} \longrightarrow \chi \]
+    $$
+    \phi :  \chi \longrightarrow \mathfrak{F}
+    $$
 
-The encoder part uses the encoder function $\phi$ to map the original data space $\chi$ to the encoded space $\mathfrak{F}$. The decoder part uses the decoder function $\psi$ to map the data from the encoded space $\mathfrak{F}$ to the original data space $\chi$.
+    $$ 
+    \psi : \mathfrak{F} \longrightarrow \chi
+    $$
+
+The encoder part uses the encoder function $$\phi$$ to map the original data space $$\chi$$ to the encoded space $\mathfrak{F}$. The decoder part uses the decoder function $\psi$ to map the data from the encoded space $\mathfrak{F}$ to the original data space $\chi$.
 
 Given an autoencoder with one hidden layer, the encoder function can be written as \( h = \sigma(Wx + b) \), where h is the encoded representation of the data, $\sigma$ is the activation function such as sigmoid or rectified linear unit, $W$ is the weight matrix, $x$ is the original data and $b$ is the bias vector. The weight matrix and the bias vector are updated for each feature iteratively using partial derivatives and backpropogation. The decoder function can be written as \( x` = \sigma`(W`h + b`) \), where $x`$ is the decoded/reconstructed representation of $x$ and $W`$, $\sigma`$ and $b`$ may not correspond to the previous $W$, $\sigma$ and $b$. As is evident from the equations, the activation function $\sigma$ plays important role in mapping the data from its original space to an encoded subspace and vice versa. Autoencoders try to minimize the loss function \( L = f(x,x`) \) such that it penalizes $x`$ for being dissimilar to $x$.
 
