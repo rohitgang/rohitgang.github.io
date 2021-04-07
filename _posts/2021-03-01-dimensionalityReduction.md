@@ -5,6 +5,8 @@ tags: [maching learning, dimensionality reduction]
 excerpt: "Autoencoders"
 permalink: /dimensionalityReduction/
 ---
+{% include lib/mathjax.html %}
+
 
 Autoencoders are neural networks which learn the mapping of the input to the input. It can be a simple feed-forward neural network or can be a complex neural net with a deep architecture. The architecture of the autoencoders is specific to the data it’s trying to model. An autoencoder can be easily split between two parts, the encoder and the decoder. We can encode the data by reducing the number of units in each subsequent layer of the neural net until we get to the desired k units. This will be the encoder layer with k units. After this we can build back up by adding more units in each subsequent layer until we reach to the original input dimensions, this is our decoder layer.
 
