@@ -30,7 +30,9 @@ To demonstrate the dimensionality reduction capabilites of the autoencoder, I de
 
 I used <code>tensorflow.keras</code> to build the autoencoder. The source code for this project can be viewed on [github](https://github.com/rohitgang/Autoencoders). In the end, I was able to achieve a good enough 2 dimensional encoding of 276 dimensions.
   
-![Reduced Dimension](/images/ac_housing_18.png)
+<p align="center">
+  <img width="460" height="300" src="/images/ac_housing_18.png">
+</p>
 
 There are a few details to point out here. The red data points are points corresponding to Sale Price feature being less than its mean value and the green data points are points corresponding to Sale Price feature being more than its mean value. We can see that the green points are in two clusters. There are two arcs of the green points. The red data points are spread across the axes. Again, the seperation of the data points is not quite distinct. The scale of the encoded data points is not quite normal. That's because the task of the autoencoder is to reconstruct the input, so anything in middle might not be the most accurate representation of the data.
 
